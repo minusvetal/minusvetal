@@ -1,1 +1,0 @@
-# minusvetal.github.io
