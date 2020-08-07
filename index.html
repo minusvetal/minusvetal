@@ -9,12 +9,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/vidbg.css" />
   </head>
   <body>
     <header class="header">
       <img src="img/logo.svg" alt="logo" class="logo" />
-      <nav class="main-nav">
+      <nav class="main-nav" data-aos="zoom-in-up" data-aos-delay="300">
         <ul class="list">
           <li class="item">
             <a href="#" class="link">Falcon 9</a>
@@ -30,7 +31,7 @@
           </li>
         </ul>
       </nav>
-      <nav class="secondary-nav">
+      <nav class="secondary-nav" data-aos="zoom-in-up" data-aos-delay="400">
         <ul class="list">
           <li class="item">
             <a href="#" class="item-link">About</a>
@@ -45,16 +46,24 @@
       </nav>
     </header>
     <section class="main">
-      <h1 class="title">Falcon Heavy</h1>
-      <p class="description">
+      <h1 class="title" data-aos="flip-down" data-aos-delay="600">
+        Falcon Heavy
+      </h1>
+      <p class="description" data-aos="flip-up" data-aos-delay="700">
         The most powerful operational rocket in the world by a factor of two
       </p>
     </section>
-    <div class="video"></div>
+    <div class="video" data-aos="flip-left" data-aos-delay="1000"></div>
     <section class="features">
-      <div class="overview">
-        <h2 class="features-title">Falcon Heavy <br />Overview</h2>
-        <table class="table">
+      <div>
+        <h2>Falcon Heavy <br />Overview</h2>
+        <table
+          class="table"
+          class="features-title"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <tr>
             <td class="table-colum">HEIGHT</td>
             <td class="table-colum">70 m / 229.6 ft</td>
@@ -125,6 +134,7 @@
     </footer>
     <script src="js/vidbg.js"></script>
     <script src="js/rellax.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
