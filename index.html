@@ -1,140 +1,263 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Space - X - Zaporizhzya</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/vidbg.css" />
-  </head>
-  <body>
-    <header class="header">
-      <img src="img/logo.svg" alt="logo" class="logo" />
-      <nav class="main-nav" data-aos="zoom-in-up" data-aos-delay="300">
-        <ul class="list">
-          <li class="item">
-            <a href="#" class="link">Falcon 9</a>
-          </li>
-          <li class="item">
-            <a href="#" class="item-link">Falcon Heavy</a>
-          </li>
-          <li class="item">
-            <a href="#" class="item-link">Dragon</a>
-          </li>
-          <li class="item">
-            <a href="#" class="item-link">Updates</a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="secondary-nav" data-aos="zoom-in-up" data-aos-delay="400">
-        <ul class="list">
-          <li class="item">
-            <a href="#" class="item-link">About</a>
-          </li>
-          <li class="item">
-            <a href="#" class="item-link">Gallery</a>
-          </li>
-          <li class="item">
-            <a href="#" class="item-link">Shop</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section class="main">
-      <h1 class="title" data-aos="flip-down" data-aos-delay="600">
-        Falcon Heavy
-      </h1>
-      <p class="description" data-aos="flip-up" data-aos-delay="700">
-        The most powerful operational rocket in the world by a factor of two
-      </p>
-    </section>
-    <div class="video" data-aos="flip-left" data-aos-delay="1000"></div>
-    <section class="features">
-      <div>
-        <h2>Falcon Heavy <br />Overview</h2>
-        <table
-          class="table"
-          class="features-title"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
-          <tr>
-            <td class="table-colum">HEIGHT</td>
-            <td class="table-colum">70 m / 229.6 ft</td>
-          </tr>
+<html lang="ru">
 
-          <tr>
-            <td class="table-colum">DIAMETER</td>
-            <td class="table-colum">12.2 m / 39.9 ft</td>
-          </tr>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой сайт</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-          <tr>
-            <td class="table-colum">MASS</td>
-            <td class="table-colum">1,420,788 kg / 3,125,735 lb</td>
-          </tr>
-
-          <tr>
-            <td class="table-colum">PAYLOAD TO LEO</td>
-            <td class="table-colum">63,800 kg / 140,660 lb</td>
-          </tr>
-
-          <tr>
-            <td class="table-colum">PAYLOAD TO GTO</td>
-            <td class="table-colum">26,700 kg / 58,860 lb</td>
-          </tr>
-
-          <tr>
-            <td class="table-colum">PAYLOAD TO MARS</td>
-            <td class="table-colum">16,800 kg / 37,040 lb</td>
-          </tr>
-        </table>
-        <img
-          src="img/rocket.png"
-          alt="rocket"
-          class="rocket"
-          data-rellax-speed="12"
-        />
-
-        <h2 class="features-title">UNMATCHED <br />PERFORMANCE</h2>
-        <p class="features-text">
-          With more than 5 million pounds of thrust at liftoff, Falcon Heavy is
-          the most capable rocket flying. By comparison, the liftoff thrust of
-          the Falcon Heavy equals approximately eighteen 747 aircraft at full
-          power. Falcon Heavy can lift the equivalent of a fully loaded 737
-          jetliner—complete with passengers, luggage and fuel—to orbit.
-        </p>
+<body>
+  <header class="hero">
+    <div class="container">
+      <div class="hero-header">
+        <img src="img/logo.svg" alt="Логотип" class="logo wow bounceInLeft" data-wow-delay="0.5s">
+        <!-- /.social ilnks -->
+        <div class="social-links">
+          <a href="#" class="social-link" target="_blank"><img src="img/github.svg" class="logo wow bounceInRight"
+              data-wow-delay="0.1s" alt="github"></a>
+          <a href="" class="social-link" target="_blank"><img src="img/twitter.svg" class="logo wow bounceInRight"
+              data-wow-delay="0.3s" alt="twitter"></a>
+          <a href="" class="social-link" target="_blank"><img src="img/instagram.svg" class="logo wow bounceInRight"
+              data-wow-delay="0.5s" alt="instagram"></a>
+          <a href="" class="social-link" target="_blank"><img src="img/facebook.svg" class="logo wow bounceInRight"
+              data-wow-delay="0.7s" alt="facebook"></a>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="hero-subtitle wow fadeInDownBig">Фрилансер</span>
+          <h1 class="hero-title wow fadeInRight">Виталька</h1>
+          <p class="hero-description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и
+            верстку небольшого сайта или
+            интернет-магазина</p>
+          <button class="button hero-button">Бесплатная консультация</button>
+        </div>
+        <div class="hero-avatar wow flip" data-wow-delay="0.2s"></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="features section">
+      <div class="container">
+        <h2 class="section-title">Со мной удобно работать</h2>
+        <div class="features-block">
+          <div class="features-item">
+            <img src="img/feature/offer-img.svg " alt="По договору" class="feature-image wow rotateIn">
+            <h3 class="feature-title">По договору</h3>
+            <p class="feature-txt">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без
+              НДС.</p>
+          </div>
+          <div class="features-item">
+            <img src="img/feature/deadline-img.svg" alt="Точно в срок" class="feature-image wow rotateIn">
+            <h3 class="feature-title">Точно в срок</h3>
+            <p class="feature-txt">В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу
+              неустойку.</p>
+          </div>
+          <div class="features-item">
+            <img src="img/feature/agreement-img.svg" alt="Ценник под вас" class="feature-image wow rotateIn">
+            <h3 class="feature-title">Ценник под вас</h3>
+            <p class="feature-txt">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как
+              складывается цена.</p>
+          </div>
+          <div class="features-item">
+            <img src="img/feature/steps-img.svg" alt="Премежуточные итоги" class="feature-image wow rotateIn">
+            <h3 class="feature-title">Премежуточные итоги</h3>
+            <p class="feature-txt">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
+          </div>
+          <div class="features-item">
+            <img src="img/feature/storage-img.svg" alt="Хостинг и домен " class="feature-image wow rotateIn">
+            <h3 class="feature-title">Хостинг и домен</h3>
+            <p class="feature-txt">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL
+              сертификат.</p>
+          </div>
+          <div class="features-item">
+            <img src="img/feature/conversation-img.svg" alt="Не брошу после сдачи" class="feature-image wow rotateIn">
+            <h3 class="feature-title">Не брошу после сдачи</h3>
+            <p class="feature-txt">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+          </div>
+        </div>
       </div>
     </section>
-    <footer class="footer">
-      <img src="img/logo.svg" alt="logo" class="logo" />
-      <nav class="footer-nav">
-        <ul class="list">
-          <li class="item"><a href="#" class="item-link">Twitter</a></li>
-          <li class="item"><a href="#" class="item-link">Youtube</a></li>
-          <li class="item"><a href="#" class="item-link">Instagram</a></li>
-          <li class="item"><a href="#" class="item-link">Flickr</a></li>
-          <li class="item"><a href="#" class="item-link">LinkedIn</a></li>
-          <li class="item"><a href="#" class="item-link">Privacy</a></li>
-          <li class="item"><a href="#" class="item-link">Policy</a></li>
-        </ul>
-      </nav>
-      <p class="footer-text">
-        For additional questions, contact
-        <a class="footer-link" href="mailto:rideshare@spacex.com"
-          >rideshare@spacex.com</a
-        >
-      </p>
-      <a href="" class="button">Contact us</a>
-    </footer>
-    <script src="js/vidbg.js"></script>
-    <script src="js/rellax.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+
+    <!-- Projects -->
+    <section class="section projects">
+      <div class="container">
+        <h2 class="section-title">Последние проекты</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper-container projects-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper ">
+            <!-- Slides -->
+            <div class="swiper-slide projects-slide">
+              <img src="img/project-img.png" alt="Проэкт" class="project-image">
+              <div class="project-text">
+                <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
+                <!-- time -->
+                <div class="project-time">
+                  <img src="img/time-icon.svg" alt="time" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Сроки</h4>
+                    <p class="project-paragraf">4 рабочих дня</p>
+                  </div>
+                </div>
+                <!-- cost -->
+                <div class="project-cost">
+                  <img src="img/cost-icon.svg" alt="cost" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraf">14 000 рублей</p>
+                  </div>
+                </div>
+                <!-- feedbeck -->
+                <div class="project-feedback">
+                  <img src="img/feedback-icon.svg" alt="feedbeck" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraf">Мне понравилось работать с Артемом, потому что он все время был на связи
+                      и предлагал свои решения, когда мы заходили в
+                      тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий
+                      фрилансер, у которого с
+                      документами все в порядке</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 02 -->
+            <div class="swiper-slide projects-slide">
+              <img src="img/02.jpg" alt="Проэкт" class="project-image">
+              <div class="project-text">
+                <h3 class="project-title">Корона Вируз</h3>
+                <!-- time -->
+                <div class="project-time">
+                  <img src="img/time-icon.svg" alt="time" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Сроки</h4>
+                    <p class="project-paragraf">Ни кто не занет</p>
+                  </div>
+                </div>
+                <!-- cost -->
+                <div class="project-cost">
+                  <img src="img/cost-icon.svg" alt="cost" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Баблишко</h4>
+                    <p class="project-paragraf">2 кучи денег ушло</p>
+                  </div>
+                </div>
+                <!-- feedbeck -->
+                <div class="project-feedback">
+                  <img src="img/feedback-icon.svg" alt="feedbeck" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraf">Когда это все закончится фиг его знаеть.....</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 03 -->
+            <div class="swiper-slide projects-slide">
+              <img src="img/03.png" alt="Проэкт" class="project-image">
+              <div class="project-text">
+                <h3 class="project-title">Профессионалы своего дела !!</h3>
+                <!-- time -->
+                <div class="project-time">
+                  <img src="img/time-icon.svg" alt="time" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Сроки</h4>
+                    <p class="project-paragraf">от 0,2 до бесконечности</p>
+                  </div>
+                </div>
+                <!-- cost -->
+                <div class="project-cost">
+                  <img src="img/cost-icon.svg" alt="cost" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraf">от 2-3 фунфырика боярышника</p>
+                  </div>
+                </div>
+                <!-- feedbeck -->
+                <div class="project-feedback">
+                  <img src="img/feedback-icon.svg" alt="feedbeck" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraf">Очень приветливые ребята !! Рекомендую для дальнейших бесед и
+                      коллективной дегустации !</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 04 -->
+            <div class="swiper-slide projects-slide">
+              <img src="img/04.jpg" alt="Вот" class="project-image">
+              <h3 class="project-title"> ---- Лето скоро закончится.. ЭХ...</h3>
+            </div>
+          </div>
+
+
+
+          <!-- If we need pagination -->
+          <div class=" projects-pagination"></div>
+
+
+        </div>
+
+        <!-- end swip -->
+
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="section">
+    <div class="container">
+      <h2 class="section-title">Свяжитесь со мной</h2>
+      <div class="contacts-block">
+        <form action="#" class="contacts-form">
+          <h4 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
+          <input type="text" class="input input-name" placeholder="Ваше имя">
+          <input type="text" class="input input-phone" placeholder="Ваш телефон">
+          <button class="button form-button">Бесплатная консультация</button>
+        </form>
+
+        <div class="contacts-text">
+          <div class="contacts-data">
+            <div class="contacts-phone">
+              <h4 class="contacts-title">Телефон</h4>
+              <a href="02" class="tel contacts-link">02</a>
+            </div>
+            <div class="contacts-mail">
+              <h4 class="contacts-title">Почта</h4>
+              <a href="mailto:fff@gmail" class="contacts-link">fff@gmail</a>
+            </div>
+            <div class="contacts-social">
+              <h4 class="contacts-title">Соцсети</h4>
+              <a href="#" class="contacts-link">t.me/my</a>
+              <a href="#" class="contacts-link">vk.me/my</a>
+              <a href="# " class="contacts-link">fb.me/my</a>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/minusvetal" class="social-link" target="_blank"><img src="img/github.svg"
+                alt="github"></a>
+            <a href="" class="social-link" target="_blank"><img src="img/twitter.svg" alt="twitter"></a>
+            <a href="" class="social-link" target="_blank"><img src="img/instagram.svg" alt="instagram"></a>
+            <a href="" class="social-link" target="_blank"><img src="img/facebook.svg" alt="facebook"></a>
+          </div>
+          <a href="#" class="contacts-policy">Политика конфиденциальности</a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="js/wow.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
